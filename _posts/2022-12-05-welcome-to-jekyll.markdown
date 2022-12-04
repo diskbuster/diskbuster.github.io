@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to diskbuster on Jekyll!"
 date:   2022-12-05 00:14:36 +0100
 categories: jekyll update
 ---
