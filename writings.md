@@ -1,6 +1,6 @@
 ---
 title: writings
-layout: single
+layout: page
 author_profile: Joachim Kasper
 ---
 
