@@ -1,4 +1,4 @@
-# diskbuster webspacee
+# diskbuster webspace @ diskbuster.github.io
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/limyunkai19/minimal-mistakes-jekyll/blob/master/LICENSE)
 
 Ready to use Jekyll template with Minimal Mistakes theme. Instant blog without knowing git and command line. Just fork it to use for your GitHub Pages.
