@@ -8,9 +8,13 @@ twitter:
 github:
   username: "diskbuster"
 theme: minimal-mistakes-jekyll
+
+remote_theme: pages-themes/minimal@v0.2.0
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 defaults:
   # _posts
