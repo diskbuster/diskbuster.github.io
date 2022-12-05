@@ -3,11 +3,17 @@
 
 <div itemscope itemtype="https://schema.org/Person">
 
+
   {% if author.avatar %}
-  <lightning-widget name="" accent="#ffffff" to="LNURL1DP68GURN8GHJ7MRWVF5HGUEWWDSHGMMNDP5KYMMC9E5K7TMVDE6HYMRS9ASHQ6F0WCCJ7MRWW4EXCTE3XGZQ4NUF" image="{{ author.avatar | relative_url }}" button-text="⚡ donate with sats">
-<script src="https://satoshicafe.de/sites/default/files/lightning/app.js"></script></lightning-widget>
+
   {% endif %}
 
+  {% if author.lnwidget_lnurlp %}
+  <lightning-widget name="" accent="#ffffff" to="{{ author.lnwidget_lnurlp }}" image="{{ author.avatar | relative_url }}" button-text="{{ author.lnwidget_button }}">
+<script src="https://satoshicafe.de/sites/default/files/lightning/app.js"></script></lightning-widget>
+
+{{ author.lnwidget }}
+  {% endif %}
 
 
   <div class="author__urls-wrapper">
