@@ -85,9 +85,9 @@ analytics:
 author:
   name             : 
   avatar           : "/assets/images/db_logo.jpg"
-  bio              : "<lightning-widget name=accent=#ffffff to=LNURL1DP68GURN8GHJ7MRWVF5HGUEWWDSHGMMNDP5KYMMC9E5K7TMVDE6HYMRS9ASHQ6F0WCCJ7MRWW4EXCTE3XGZQ4NUF image={{ author.avatar | relative_url }} button-text=⚡ donate with sats>
-<script src=https://satoshicafe.de/sites/default/files/lightning/app.js></script></lightning-widget>
-  <p>I am that guy who take crap off someone when it comes to Internet Developement and Media Design.</p>
+  lnwidget		   :  '<lightning-widget name="" accent="#ffffff" to="LNURL1DP68GURN8GHJ7MRWVF5HGUEWWDSHGMMNDP5KYMMC9E5K7TMVDE6HYMRS9ASHQ6F0WCCJ7MRWW4EXCTE3XGZQ4NUF" image="{{ author.avatar | relative_url }}" button-text="⚡ donate with sats">
+<script src="https://satoshicafe.de/sites/default/files/lightning/app.js"></script></lightning-widget>'
+  bio              : "<p>I am that guy who take crap off someone when it comes to Internet Developement and Media Design.</p>
   <p>Feel free to read my writings and get in touch if you like."
   location         : "Sunnyhill, Osnabrück, Germany"
   email            :
