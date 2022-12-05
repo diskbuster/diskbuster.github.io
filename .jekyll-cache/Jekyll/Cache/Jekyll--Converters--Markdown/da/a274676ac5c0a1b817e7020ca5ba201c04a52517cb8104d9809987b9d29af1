@@ -1,0 +1,11 @@
+I"Y<p>Welcome to the first blog posts of Minimal Mistakes Jekyll. You may edit the title, date, categories, and tags of this blog post to be your own OR delete this post and create a new one.</p>
+
+<h3 id="things-to-take-note-when-creating-a-blog-posts">Things to take note when creating a blog posts</h3>
+
+<ul>
+  <li>Categories and tags are optionals</li>
+  <li>All posts should follow the naming convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.md</code>, look at the name of this file to get the idea</li>
+  <li>It is recommended that the <code class="language-plaintext highlighter-rouge">name-of-post</code> in the file name to be all lower case</li>
+  <li>Check this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a> out to write your blog posts in markdown</li>
+</ul>
+:ET
