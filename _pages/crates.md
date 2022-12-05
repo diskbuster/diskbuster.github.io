@@ -1,4 +1,5 @@
 ---
+permalink: /crates/
 title: crates
 layout: single
 author_profile: Joachim Kasper
