@@ -4,16 +4,6 @@
 
 $(document).ready(function() {
   
-  $(window).resize(function() {
-    didResize = true;
-  });
-  setInterval(function() {
-    if (didResize) {
-      didResize = false;
-      bumpIt();
-    }
-  }, 250);
-
   // FitVids init
   $("#main").fitVids();
 
