@@ -1,6 +1,6 @@
 ---
 title: Hello World...
-layout: single
+layout: posts
 author_profile: Billy Rick
 share: false
 atom_feed: hide
