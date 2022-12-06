@@ -3,17 +3,10 @@
 
 <div itemscope itemtype="https://schema.org/Person">
 
-
   {% if author.avatar %}
-
+{{ author.avatar }}
   {% endif %}
 
-  {% if author.lnwidget_lnurlp %}
-  <lightning-widget name="" accent="#ffffff" to="{{ author.lnwidget_lnurlp }}" image="{{ author.avatar | relative_url }}" button-text="{{ author.lnwidget_button }}">
-<script src="/assets/js/app.js"></script></lightning-widget>
-
-{{ author.lnwidget }}
-  {% endif %}
 
 
   <div class="author__urls-wrapper">
